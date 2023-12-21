@@ -1,0 +1,48 @@
+.intro-background{
+
+    background: linear-gradient(300deg, #55CEE0,#63A8E1,#55E0C5 );
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+
+}
+
+.hi{
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    height: 100vh;
+    margin: 0;
+    color: white;
+    font-family: 'La Belle Aurore', cursive;
+}
+.grid-container{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.5fr 0.5fr;
+}
+.first{
+    grid-column: span 2;;
+}
+.skills{
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+    margin-bottom: 20px;
+}   
+#footer{
+    background-color: #48FAEE;
+}
+h2{
+    font-family: 'DM Serif Text', serif;
+}
+h3{
+    font-family: 'Josefin Sans', sans-serif;
+}
+.hello-me{
+   color:darkslategray;
+    font-family:'Amaranth', sans-serif;
+    font-size:xx-large;
+    
+    
+}
